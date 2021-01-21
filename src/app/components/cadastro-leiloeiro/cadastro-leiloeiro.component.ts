@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {MenuItem} from 'primeng/api';
 
 @Component({
   selector: 'app-cadastro-leiloeiro',
@@ -12,7 +12,6 @@ export class CadastroLeiloeiroComponent implements OnInit {
 
   ngOnInit() {
   }
-
   val1: string;
 
   val2: string;

@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { CadastroLeiloeiroComponent } from './components/cadastro-leiloeiro/cadastro-leiloeiro.component';
 
 import {InputMaskModule} from 'primeng/inputmask';
+import {InputTextModule} from 'primeng/inputtext';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import {InputMaskModule} from 'primeng/inputmask';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    InputMaskModule
+    InputMaskModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
